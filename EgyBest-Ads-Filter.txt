@@ -6,6 +6,7 @@
 ! Support:
 !   Telegram >> https://t.me/abdulrahmanMostafa30
 !   Github >> https://github.com/abdulrahmanMostafa30/EgyBest-Ads-Filter/issues
+! RAW: https://raw.githubusercontent.com/abdulrahmanMostafa30/EgyBest-Ads-Filter/main/EgyBest-Ads-Filter.txt
 
 @@||*$popup,domain=egybest.*
 @@||*$popup,domain=egy.best
