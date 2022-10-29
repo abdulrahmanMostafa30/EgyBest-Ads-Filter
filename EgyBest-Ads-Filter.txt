@@ -1,6 +1,11 @@
 ! Title: EgyBest-Ads-Filter
 ! Dev: abdulrahman Mostafa
 ! Description: Adblock Filters for Egybest to Bypass AdBlock Detection
+! Homepage: https://github.com/abdulrahmanMostafa30/EgyBest-Ads-Filter
+! Last modified: 29 October 2022
+! Support:
+!   Telegram >> https://t.me/abdulrahmanMostafa30
+!   Github >> https://github.com/abdulrahmanMostafa30/EgyBest-Ads-Filter/issues
 
 @@||*$popup,domain=egybest.*
 @@||*$popup,domain=egy.best
