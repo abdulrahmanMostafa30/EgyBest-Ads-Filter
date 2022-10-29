@@ -1,0 +1,42 @@
+! Title: EgyBest-Ads-Filter
+! Dev: abdulrahman Mostafa
+! Description: Adblock Filters for Egybest to Bypass AdBlock Detection
+
+@@||*$popup,domain=egybest.*
+@@||*$popup,domain=egy.best
+
+egybest.*#@#+js(window.open-defuser, !api?call=, 10, obj)
+egybest.*#@#+js(abort-current-script, Math, XMLHttpRequest)
+egybest.*#@#+js(no-setInterval-if, /^/)
+egybest.*#@#+js(no-setTimeout-if, /new|Bait|check/)
+egybest.*#@#+js(no-setTimeout-if, WinMsgHtml)
+
+
+egy.best#@#+js(window.open-defuser, !api?call=, 10, obj)
+egy.best#@#+js(abort-current-script, Math, XMLHttpRequest)
+egy.best#@#+js(no-setInterval-if, /^/)
+egy.best#@#+js(no-setTimeout-if, /new|Bait|check/)
+egy.best#@#+js(no-setTimeout-if, WinMsgHtml)
+
+
+egybest.*##.footer
+egybest.*##.header
+egybest.*##.autoslide.AutoSlideMsg
+egybest.*###main > h1
+egybest.*##.vat.td.viewport_left
+egybest.*##.api.fb.sharp.share
+egybest.*##.api.tw.sharp.share
+egybest.*###mainLoad > div.mbox:nth-of-type(4)
+egybest.*##._cp.p.a
+
+
+egy.best##.footer
+egy.best##.header
+egy.best##.autoslide.AutoSlideMsg
+egy.best###main > h1
+egy.best##.vat.td.viewport_left
+egy.best##.api.fb.sharp.share
+egy.best##.api.tw.sharp.share
+egy.best###mainLoad > div.mbox:nth-of-type(4)
+egy.best##._cp.p.a
+
